@@ -19,6 +19,23 @@ namespace BTThucTapNhom
             InitializeComponent();
         }
 
-        
+        QLThuePhong qltp = new QLThuePhong();
+        string ma_np;
+
+        private void btnCapNhatThueP_Click(object sender, EventArgs e)
+        {
+            txtMaNhanPhong.Clear();
+            txtMaKH.Clear();
+        }
+
+        private void btnThoatThuePhong_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc chắn muốn thoát?", "Thông Báo !", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                frmChinh frmchinh = new frmChinh();
+                frmchinh.Show();
+                this.Hide();
+            }
+        }
     }
 }
