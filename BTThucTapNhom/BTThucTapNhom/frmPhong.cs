@@ -20,48 +20,6 @@ namespace BTThucTapNhom
         }
         
 
-        public void LoadData()
-        {
-            
-        }
-        private void frmPhong_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dtgvPhong_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
-        {
-            
-        }
-
-        private void dtgvPhong_RowEnter(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
-        private void btnThemPhong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void frmPhong_FormClosed(object sender, FormClosedEventArgs e)
-        {
-
-        }
-
-        private void btnSuaPhong_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btnXoaPhong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

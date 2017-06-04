@@ -18,19 +18,6 @@ namespace BTThucTapNhom
             InitializeComponent();
         }
         
-        private void btnGhiNhanThemPhong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void frmThemPhong_FormClosed(object sender, FormClosedEventArgs e)
-        {
-
-        }
-
-        private void btnHuyThemPhong_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

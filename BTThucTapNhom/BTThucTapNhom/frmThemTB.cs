@@ -12,19 +12,6 @@ namespace BTThucTapNhom
 {
     public partial class frmThemTB : Form
     {
-        public frmThemTB()
-        {
-            InitializeComponent();
-        }
-
-        private void btnGhiNhanTB_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnHuyTB_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

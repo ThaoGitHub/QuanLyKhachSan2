@@ -19,29 +19,6 @@ namespace BTThucTapNhom
             InitializeComponent();
         }
 
-        private void btnCapNhatThueP_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnThoatThuePhong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnthemThuePhong_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSuaThuePhong_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnXoaThuePhong_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

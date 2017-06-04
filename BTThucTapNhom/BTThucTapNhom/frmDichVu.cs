@@ -18,54 +18,6 @@ namespace BTThucTapNhom
             InitializeComponent();
         }
 
-        public void LoadData()
-        {
-           
-        }
-
-        private void btnCapNhatDV_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnThemDV_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
-
-        private void dataGridView1_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
-        {
-            
-        }
-
-        private void frmDichVu_Load(object sender, EventArgs e)
-        {
-          
-        }
-
-        private void frmDichVu_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
-        }
-
-        private void btnSuaDV_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnXoaDV_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void btnThoatDV_Click(object sender, EventArgs e)
-        {
-             
-        }
+        
     }
 }
