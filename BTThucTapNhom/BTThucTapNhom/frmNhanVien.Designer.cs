@@ -128,6 +128,7 @@
             this.btnXoaNV.TabIndex = 17;
             this.btnXoaNV.Text = "XÓA";
             this.btnXoaNV.UseVisualStyleBackColor = true;
+            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
             // 
             // btnSuaNV
             // 
@@ -137,6 +138,7 @@
             this.btnSuaNV.TabIndex = 16;
             this.btnSuaNV.Text = "SỬA";
             this.btnSuaNV.UseVisualStyleBackColor = true;
+            this.btnSuaNV.Click += new System.EventHandler(this.btnSuaNV_Click);
             // 
             // btnThemNV
             // 
@@ -259,7 +261,7 @@
             this.dtgvNV.Location = new System.Drawing.Point(1, 358);
             this.dtgvNV.Name = "dtgvNV";
             this.dtgvNV.Size = new System.Drawing.Size(679, 238);
-            this.dtgvNV.TabIndex = 7;
+            this.dtgvNV.TabIndex = 0;
             // 
             // STT
             // 
@@ -277,6 +279,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmNhanVien";
             this.Text = "Nhân viên";
+            this.Load += new System.EventHandler(this.frmNhanVien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvNV)).EndInit();

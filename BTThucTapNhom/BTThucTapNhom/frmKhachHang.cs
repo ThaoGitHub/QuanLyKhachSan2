@@ -39,6 +39,11 @@ namespace BTThucTapNhom
             
         }
 
+        private void Frmthemnv_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //LoadData();
+        }
+
         private void btnThemKH_Click(object sender, EventArgs e)
         {
             
