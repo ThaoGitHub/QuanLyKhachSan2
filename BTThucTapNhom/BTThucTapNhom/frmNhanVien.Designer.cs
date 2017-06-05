@@ -119,6 +119,7 @@
             this.btnThoatNV.TabIndex = 18;
             this.btnThoatNV.Text = "THOÁT";
             this.btnThoatNV.UseVisualStyleBackColor = true;
+            this.btnThoatNV.Click += new System.EventHandler(this.btnThoatNV_Click);
             // 
             // btnXoaNV
             // 
@@ -261,7 +262,9 @@
             this.dtgvNV.Location = new System.Drawing.Point(1, 358);
             this.dtgvNV.Name = "dtgvNV";
             this.dtgvNV.Size = new System.Drawing.Size(679, 238);
-            this.dtgvNV.TabIndex = 0;
+            this.dtgvNV.TabIndex = 7;
+            this.dtgvNV.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvNV_RowEnter);
+            this.dtgvNV.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dtgvNV_RowPrePaint);
             // 
             // STT
             // 

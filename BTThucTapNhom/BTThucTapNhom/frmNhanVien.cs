@@ -20,8 +20,7 @@ namespace BTThucTapNhom
 
         NhanVien nv = new NhanVien();
         string Ma_nv;
-        public void LoadData()
-        {
+        public void LoadData() {
             DataTable dt = new DataTable();
             dt = nv.ShowNV();
             dtgvNV.DataSource = dt;
@@ -49,10 +48,10 @@ namespace BTThucTapNhom
             this.dateNSNV.Text = dtgvNV.Rows[dong].Cells[3].Value.ToString();
             if (rdbtnNam.Checked)
             {
-                this.rdbtnNam.Text = dtgvNV.Rows[dong].Cells[4].Value.ToString();
+            this.rdbtnNam.Text = dtgvNV.Rows[dong].Cells[4].Value.ToString(); 
             }
             else
-                this.rdbtnNu.Text = dtgvNV.Rows[dong].Cells[4].Value.ToString();
+            this.rdbtnNu.Text = dtgvNV.Rows[dong].Cells[4].Value.ToString();
             this.txtDiaChiNV.Text = dtgvNV.Rows[dong].Cells[5].Value.ToString();
             this.txtSDTNV.Text = dtgvNV.Rows[dong].Cells[6].Value.ToString();
             this.dateNgayVaoLmNV.Text = dtgvNV.Rows[dong].Cells[7].Value.ToString();
@@ -85,20 +84,20 @@ namespace BTThucTapNhom
                 MessageBox.Show("Bạn cần nhập tên nhân viên cần sửa!");
             else
             {
-                if (rdbtnNam.Checked == true) gioitinh = "Nam";
-                else gioitinh = "Nữ";
-                nv.SuaNV(
-                    Ma_nv,
-                    txtMaNV.Text,
-                    txtTenNV.Text,
-                    dateNSNV.Value,
-                    gioitinh,
-                    txtDiaChiNV.Text,
-                    txtSDTNV.Text,
-                    dateNgayVaoLmNV.Value
-                    );
-                MessageBox.Show("Đã sửa thành công!");
-                LoadData();
+                    if (rdbtnNam.Checked == true) gioitinh = "Nam";
+                    else gioitinh = "Nữ";
+                    nv.SuaNV(
+                        Ma_nv,
+                        txtMaNV.Text,
+                        txtTenNV.Text,
+                        dateNSNV.Value,
+                        gioitinh,
+                        txtDiaChiNV.Text,
+                        txtSDTNV.Text,
+                        dateNgayVaoLmNV.Value
+                        );
+                    MessageBox.Show("Đã sửa thành công!");
+                    LoadData();
             }
         }
 
